@@ -1,0 +1,26 @@
+<!Doctype html>
+<html lang = "en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link href="CSS_EX.css" rel="stylesheet" media="all"/>
+	<meta charset = "utf-8" />
+	<title>Экзамен по JavaScript</title>
+</head>
+<body>
+	<!--<div><button id = "previousLevel" value = "level_1" onclick = "goToLevel(event)">Предыдущий уровень</button><button id = "level_1" onclick = "drawLevel(event)">Уровень 1</button><button id = "level_2" onclick = "drawLevel(event)" value = "unpassed">Уровень 2</button><button id = "level_3" onclick = "drawLevel(event)">Уровень 3</button><button id = "level_4" onclick = "drawLevel(event)">Уровень 4</button><button id = "level_5" onclick = "drawLevel(event)">Уровень 5</button><button id = "level_6" onclick = "drawLevel(event)">Уровень 6</button><button id = "level_7" onclick = "drawLevel(event)">Уровень 7</button><button id = "level_8" onclick = "drawLevel(event)">Уровень 8</button><button id = "level_9" onclick = "drawLevel(event)">Уровень 9</button><button id = "level_10" onclick = "drawLevel(event)">Уровень 10</button><button id = "nextLevel" value = "level_1" onclick = "goToLevel(event)">Следующий уровень</button></div>-->
+	<div id = "levelButtons"><button id = "previousLevel" value = "level_1" onclick = "goToLevel(event)">Предыдущий уровень</button><button id = "level_1" onclick = "drawLevel(event)" value = "unpassed" style = "background-color: red">Уровень 1</button><button id = "nextLevel" value = "level_1" onclick = "goToLevel(event)">Следующий уровень</button></div>
+	<div class = "game">
+		<div class = "timeline">
+			<canvas id = "myCanvas" width = "100" height =  "400">
+				
+			</canvas>
+			<br>
+			<p class = "clickCounter">Счетчик нажатий</p>
+			<p id = "clickCounter" class = "clickCounter"></p>
+		</div>
+		<div class = "achievements">
+
+		</div>
+	</div><br>
+	<script src = "exam.js"></script>
+</body>
+</html>

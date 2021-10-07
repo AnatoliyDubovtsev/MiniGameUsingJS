@@ -1,0 +1,57 @@
+.game{
+	width: 1500px;
+	height: 1000px;
+	background-color: grey;
+	margin: 0px auto;
+	display: flex;
+	flex-flow: row nowrap;
+	background-image: url(breakWall.jpg);
+}
+#myCanvas{
+	width: 100px;
+	height: 400px;
+	background-color: white;
+}
+.timeline{
+	width: 100px;
+	height: 400px;
+	margin-left: 40px;
+	margin-top: 30px;
+	background-color: yellow;
+}
+table{
+	margin: 0px auto;
+	padding-top: 5px;
+	background-color: grey;
+	position: relative;
+	left: -100px;
+	height: fit-content;
+}
+tr{
+	height: 78px;
+}
+td{
+	width: 78px;
+	height: 78px;
+	background-color:black;
+	text-align: center;
+}
+img{
+	display: block;
+}
+#levelButtons{
+	width: 1500px;
+	margin: 0px auto;
+	text-align:left;
+}
+.achievements{
+	height: 1000px;
+	width: 100px;
+	position: relative;
+	right: -1200px;
+}
+.clickCounter{
+	width: 100px;
+	background-color: white;
+	font-size: 25px;
+}
